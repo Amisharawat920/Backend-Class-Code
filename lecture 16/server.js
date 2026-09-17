@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 app.get('/about', (req, res) => {
     console.log("about page visited");
-    res.send('Hello about page!');
+    res.send('Hello amisha');
 });
 
 app.listen(port, () => {
